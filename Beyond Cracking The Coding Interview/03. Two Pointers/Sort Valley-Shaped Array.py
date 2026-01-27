@@ -8,7 +8,7 @@ def sort_valley_array(arr):
     i = len(arr)-1
 
     while l < r:
-        if arr[l] >= r:
+        if arr[l] >= arr[r]:
             ans[i] = arr[l]
             l += 1
             i -= 1
